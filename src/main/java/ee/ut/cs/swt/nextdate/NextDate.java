@@ -99,9 +99,8 @@ public class NextDate {
 					else
 						return "Invalid Input Date";
 				}
-				//
-				//else if(day > 29) //invalid input as February will never have more than 29 days
-					//return "Invalid Input Date";
+				else //if(day > 29) //invalid input as February will never have more than 29 days
+					return "Invalid Input Date";
 			}
 		}
 		//return the string representing the nextDate, in the form MM/DD/YY
